@@ -1,0 +1,30 @@
+{
+  "name": "karsh-turkce-ekler",
+  "version": "0.1.0",
+  "description": "Rakamla yazılmış sayılara Türkçe hal eki: ünlü uyumu ve sert ünsüz kuralıyla · Turkish case endings for numbers written as digits.",
+  "keywords": [
+    "turkish",
+    "turkce",
+    "suffix",
+    "ekler",
+    "vowel-harmony",
+    "unlu-uyumu",
+    "i18n",
+    "typescript",
+    "zero-dependency"
+  ],
+  "license": "MIT",
+  "author": "Hasan Karşı / KARSH",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
