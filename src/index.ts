@@ -8,4 +8,4 @@
  * hiding them behind `withEnding` would cost more than it saves.
  */
 
-export * from "./turkish";
+export * from "./turkish.js";

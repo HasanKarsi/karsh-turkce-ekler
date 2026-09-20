@@ -32,8 +32,10 @@ npm i github:<kullanıcı>/karsh-turkce-ekler
 ```
 
 Kaynak TypeScript olduğu için tüketen tarafın TS'i çözebilmesi gerekir:
-bir paketleyici (Vite, webpack, Next) ya da `tsc`. Düz `node` ile
-çalıştırmak için önce derle.
+Vite, esbuild, webpack ya da Next gibi bir paketleyici. Next'te ayrıca
+`next.config` dosyana `transpilePackages: ["karsh-turkce-ekler"]` eklemen gerekir: Next
+`node_modules` içindeki ham TypeScript'i kendiliğinden derlemez. Düz `node`
+paketi olduğu gibi çalıştıramaz.
 
 Ya da `src/turkish.ts` dosyasını projene kopyala: tek dosya, tek başına
 çalışır, lisansı MIT.
@@ -137,8 +139,10 @@ npm i github:<user>/karsh-turkce-ekler
 ```
 
 Because it ships as TypeScript, whatever consumes it has to resolve TS: a
-bundler (Vite, webpack, Next) or `tsc`. To run it under plain `node`,
-compile it first.
+bundler such as Vite, esbuild, webpack or Next. On Next you also need
+`transpilePackages: ["karsh-turkce-ekler"]` in your `next.config`: Next does not compile raw
+TypeScript inside `node_modules` on its own. Plain `node` cannot run the
+package as it ships.
 
 Or copy `src/turkish.ts` into your project — one file, no imports, MIT.
 
