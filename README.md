@@ -28,7 +28,7 @@ sertleşmesi dahil.
 Paket TypeScript kaynağı olarak dağıtılır; derleme adımı yoktur.
 
 ```bash
-npm i github:<kullanıcı>/karsh-turkce-ekler
+npm i github:HasanKarsi/karsh-turkce-ekler
 ```
 
 Kaynak TypeScript olduğu için tüketen tarafın TS'i çözebilmesi gerekir:
@@ -135,7 +135,7 @@ the ending: vowel harmony, the four-way harmony of the possessive, the buffer
 The package ships as TypeScript source; there is no build step.
 
 ```bash
-npm i github:<user>/karsh-turkce-ekler
+npm i github:HasanKarsi/karsh-turkce-ekler
 ```
 
 Because it ships as TypeScript, whatever consumes it has to resolve TS: a
